@@ -1,45 +1,81 @@
- 
- 
- .divtienda{
+ .divtienda {
 
-          background-image: url("../Img/tazas.png");
-          background-size: 100% 100%;
-          width: 250px;
-          height: 210px;
-          text-align: center;
-          padding: 12px 15px;
-          border: solid rgb(241, 68, 169);
-          display: flex;
-          justify-content: center;
-          align-items: center;
+    background-image: url("../Img/tazas.png");
+    background-size: 100% 100%;
+    width: 90vh;
+    height: 50vh;
+    text-align: center;
+    padding: 12px 15px;
+    border: solid rgb(241, 68, 169);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
  }
-  .h2tienda{
 
-           background-color: rgb(247, 85, 179);
-           border: solid black;
-           padding: 10px;
-           
-  }
+ .h2tienda {
 
-header{ 
+    background-color: rgb(158, 231, 186);
+    border: solid black;
+    padding: 25px;
+    
 
-       line-height: 0px;
  }
 
- .h2section{
+ header {
+
+    padding: 25px, 20px;
+    line-height: 0px;
+    
+ }
+
+ .h2section,
+ h1 {
 
     padding: 20px;
     text-align: center;
  }
 
- .sectiontienda{
+ .h3sectiontienda {
 
-     display: flex;
-     justify-content: center;
-     align-items: center;
+    padding: 20px;
+    text-align: center;
+    line-height: 5px;
+
+
  }
 
- p{
+ .sectiontienda {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ p {
     text-align: center;
+ }
+
+ footer {
+
+    padding: 30px;
+ }
+
+ .estilowhatsapp {
+
+    color: green;
+ }
+
+ .h2tiendaheader {
+
+    line-height: 0px;
+ }
+
+ body {
+
+    background-color: rgba(250, 160, 245, 0.5);
+ }
+
+ section{
+   background-color: rgb(243, 182, 223);
  }
